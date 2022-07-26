@@ -1,3 +1,40 @@
 body {
-    background: white;
+    background: #008080;
+}
+
+h1,
+body,
+p {
+    font-family: sans-serif;
+}
+
+h1,
+body {
+    color: white;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+}
+
+p {
+    display: inline-block;
+    background-color: #c0c0c0;
+    color: black;
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    border-top: none;
+    margin: 0px 0px 0px 0px;
+}
+
+h3 {
+    display: block;
+    color: #c0c0c0;
+    background-color: #a0a0a0;
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    margin: 0px 0px 0px 0px;
 }
