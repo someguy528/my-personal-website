@@ -7,11 +7,13 @@ h3,
 body,
 p {
     font-family: sans-serif;
+    font-weight: lighter;
 }
 
 h1,
 h2 {
     color: white;
+    font-weight: lighter;
 }
 
 .container {
@@ -35,9 +37,9 @@ h3 {
     display: block;
     box-sizing: border-box;
     width: 100%;
-    color: #c0c0c0;
+    color: #f1fbff;
     font-size: 1.1em;
-    background-color: #a0a0a0;
+    background-color: #0d71cf;
     padding: 10px;
     border-bottom: 2px solid #e5e5e5;
     margin: 0px 0px 0px 0px;
