@@ -8,3 +8,8 @@ function clickDemo() {
 };
 inputButton.addEventListener('click', clickDemo)
 
+const inputComment = document.getElementById('commentButton');
+function commentDemo() {
+    alert("This button doesn't seem to do much, but it clicks.");
+};
+inputComment.addEventListener('click', commentDemo)
